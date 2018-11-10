@@ -1,0 +1,13 @@
+.logo-element {
+    padding: 12px 0 !important;
+}
+
+.nav-header {
+    padding: 30px 15px !important;
+    background-imag: none !important;
+}
+
+
+.nav > li.active{
+    border-left: 4px solid $theme_color !important;
+}

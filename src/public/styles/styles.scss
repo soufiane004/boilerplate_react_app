@@ -1,0 +1,21 @@
+/*variables*/
+@import './base/_base.scss';
+
+/*styles communs*/
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../../node_modules/font-awesome/css/font-awesome.css';
+@import '../../../node_modules/animate.css/animate.min.css';
+@import './style.scss';
+
+/*styles personnalisés*/
+@import './base/commonStyle.scss';
+
+/*navigation*/
+@import './components/_navigation.scss';
+/*top header*/
+@import './components/_top_header.scss';
+
+
+
+/*login*/
+@import './components/login.scss'

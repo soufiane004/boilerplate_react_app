@@ -1,0 +1,38 @@
+.k-widget {
+    font-size: 10.3px !important;
+}
+
+.k-widget.k-grid {
+    max-width: 100%;
+    overflow: auto;
+}
+
+.k-grid {
+  display: inherit;
+}
+
+.k-pager-wrap {
+  background-color: white;
+}
+
+.k-grid-pager {
+    border-width: 0px 0 0;
+}
+
+.k-filtercell .k-filtercell-wrapper, .k-filtercell>span{
+  display:-webkit-inline-box;
+}
+
+.k-grid-content.k-virtual-content{
+    overflow: auto;
+}
+
+
+.k-grid-header{
+  padding:0px !important;
+}
+
+.k-grid-container{
+  max-heigh: 300px;
+  overflow-: hidden;
+}

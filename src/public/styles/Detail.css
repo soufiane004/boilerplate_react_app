@@ -1,0 +1,23 @@
+.tableDetailPosition{
+  border-top-width: 1.5px !important;
+  border-color: rgba(171, 171, 171, 0.65) !important;
+}
+
+.navy-bg, .bg-primary{
+  background-color: #ffffff !important;
+  color:gray !important;
+  border:1.2px solid #00000026;
+}
+
+
+i.fa.fa-bars.fa-2x{
+  color:#6b6b6bdb;
+}
+
+.text-total{
+  padding-left:0px;
+}
+
+button.react-date-picker__calendar-button.react-date-picker__button__icon{
+  display : none;
+}
