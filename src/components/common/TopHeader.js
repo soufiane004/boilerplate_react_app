@@ -18,7 +18,7 @@ class TopHeader extends React.Component {
     disconnect(){
       Auth.clearLocalStorage()
       hashHistory.push('/')
-      
+
     }
 
     componentDidMount(){
@@ -44,7 +44,7 @@ class TopHeader extends React.Component {
                     <ul className="nav navbar-top-links navbar-right">
                         <li>
                             <a style={{'paddingTop':'10px','paddingBottom':'10px'}}>
-                                <Button onClick={this.disconnect} style={{'color':'#7b7b7b','backgroundColor':'#f3f3f4','border':'none'}}><i className="fa fa-sign-out"></i>Déconnexion</Button>
+                                <Button className="btn-link" onClick={this.disconnect} style={{'color':'white','backgroundColor':'transparent','border':'none'}}><i className="fa fa-sign-out"></i>Déconnexion</Button>
                             </a>
                         </li>
                     </ul>

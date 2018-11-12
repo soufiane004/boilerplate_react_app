@@ -3,7 +3,7 @@ import {ToastContainer, ToastStore} from 'react-toasts';
 import {hashHistory} from 'react-router';
 import CommonsData from '../../utils/CommonsData.js'
 import {Image} from 'react-bootstrap'
-import bmcecap from '../../public/img/bkm_blue.png'
+import bmcecap from '../../public/img/logo.png'
 import $ from 'jquery'
 import Constantes from '../../utils/Constantes.js'
 import CFPApi from '../../api/CFPApi.js'
@@ -99,7 +99,7 @@ class Login extends Component {
     render() {
 
         return (
-          <div>
+          <div className="loginPage">
           <ToastContainer store={ToastStore}/>
           <div class="middle-box text-center loginscreen  animated fadeInDown">
 
@@ -109,14 +109,14 @@ class Login extends Component {
                   </div>
 
                   <div>
-                      <Image src={bmcecap} style={{'width':'100%','height':'50%','paddin':'5px'}}/>
+                      <Image src={bmcecap} style={{'width':'100%','height':'50%','padding-bottom':'15px'}}/>
                   </div>
 
-                            <div class="well">
+                            {/*<div class="well">
                                 <h4>
-                                    Calcul des comptes fonds propres
+                                    Hola Statistics
                                 </h4>
-                            </div>
+                            </div>*/}
 
 
                       <div class="form-group">
@@ -129,7 +129,7 @@ class Login extends Component {
 
 
 
-                  <p class="m-t"> <small>Copyright &copy; DSI BMCE CAPITAL 2018</small> </p>
+                  <p class="m-t"> <small><strong>Copyright &copy; 2018</strong></small> </p>
               </div>
           </div>
           </div>

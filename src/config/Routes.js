@@ -1,5 +1,8 @@
 import React from 'react';
 import Main from '../components/layouts/Main';
+import Dashboard from '../containers/Dashboard/Dashboard.js'
+import Detail from '../containers/Detail/Detail.js'
+import Data from '../containers/Data/Data.js'
 
 
 import Page1 from '../views/Page1.js';
@@ -39,9 +42,9 @@ export default (
         <Route path="/" component={Login} history={hashHistory}/>
 
         <Route path="/" component={Main} >
-            <Route path="reporting/synthese" component={Page1} onEnter={requireLogin}/>
-            <Route path="reporting/historique" component={Page2} onEnter={requireLogin}/>
-            <Route path="administration" component={Page3} onEnter={requireLogin}/>
+            <Route path="dashboard" component={Dashboard} onEnter={requireLogin}/>
+            <Route path="detail" component={Detail} onEnter={requireLogin}/>
+            <Route path="data" component={Data} onEnter={requireLogin}/>
         </Route>
     </Router>
   );

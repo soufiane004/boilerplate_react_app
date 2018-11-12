@@ -1,6 +1,11 @@
 body{
   font-size:11.5px;
 }
+
+#root{
+  height: 100%;
+}
+
 .pace .pace-progress{
   background: $theme_color !important;
   height: 2.5px !important;
@@ -11,7 +16,7 @@ body.mini-navbar .nav-header{
 }
 
 .white-bg {
-    background-color: #f3f3f4 !important;
+    background-color:#213a53 !important;
 }
 
 .nav.navbar-right > li > a {

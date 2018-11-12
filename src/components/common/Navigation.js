@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import { Link, Location } from 'react-router-dom';
 import { Link } from 'react-router';
-import bmcecap from '../../public/img/bkm.png'
+import bmcecap from '../../public/img/logo-white.png'
 import {Image} from 'react-bootstrap'
 import $ from 'jquery'
 import metismenu from 'metismenu';
@@ -35,18 +35,17 @@ class Navigation extends Component {
                                   <Link to="/reporting/synthese" data-toggle="dropdown" className="dropdown-toggle"><Image src={bmcecap} style={{'width':'190px','height':'50px','paddin':'5px'}}/></Link>
                             </div>
                             <div className="logo-element">
-                                BKM
+                                HB
                             </div>
                         </li>
-                        <li className={this.activeRoute("/reporting")}>
-                            <Link><i className="fa fa-bar-chart"></i> <span className="nav-label">Reporting</span><span className="fa arrow"></span></Link>
-                            <ul className={this.secondLevelActive("/reporting")}>
-                                <li><Link to="/reporting/synthese" className={this.activeSecondLevel("/reporting/synthese")}>Synthèse</Link></li>
-                                <li><Link to="/reporting/historique" className={this.activeSecondLevel("/reporting/historique")}>Historique</Link></li>
-                            </ul>
+                        <li className={this.activeRoute("/dashboard")}>
+                          <Link to="/dashboard"><i className="fa fa-bar-chart"></i> <span className="nav-label">Dashboard</span></Link>
                         </li>
-                        <li className={this.activeRoute("/administration")}>
-                          <Link to="/administration"><i className="fa fa-cogs"></i> <span className="nav-label">Administration</span></Link>
+                        <li className={this.activeRoute("/detail")}>
+                          <Link to="/detail"><i className="fa fa-money"></i> <span className="nav-label">Détail</span></Link>
+                        </li>
+                        <li className={this.activeRoute("/data")}>
+                          <Link to="/data"><i className="fa fa-database"></i> <span className="nav-label">Data</span></Link>
                         </li>
                     </ul>
 
