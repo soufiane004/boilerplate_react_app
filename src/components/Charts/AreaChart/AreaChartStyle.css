@@ -1,0 +1,23 @@
+.AreaChartStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radiu: 8px !important;
+  borde: 1px solid #213a531a;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding: 15px 0 15px 0;
+}
+
+text{
+  font-size: 11px;
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.iconLoading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

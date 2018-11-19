@@ -32,7 +32,7 @@ class Navigation extends Component {
                         <li className="nav-header">
                             <div className="dropdown profile-element"> <span>
                              </span>
-                                  <Link to="/reporting/synthese" data-toggle="dropdown" className="dropdown-toggle"><Image src={bmcecap} style={{'width':'190px','height':'50px','paddin':'5px'}}/></Link>
+                                  <Link to="/reporting/synthese" data-toggle="dropdown" className="dropdown-toggle"><Image src="" style={{'width':'190px','height':'50px','paddin':'5px'}}/></Link>
                             </div>
                             <div className="logo-element">
                                 HB

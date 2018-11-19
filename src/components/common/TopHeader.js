@@ -44,7 +44,7 @@ class TopHeader extends React.Component {
                     <ul className="nav navbar-top-links navbar-right">
                         <li>
                             <a style={{'paddingTop':'10px','paddingBottom':'10px'}}>
-                                <Button className="btn-link" onClick={this.disconnect} style={{'color':'white','backgroundColor':'transparent','border':'none'}}><i className="fa fa-sign-out"></i>Déconnexion</Button>
+                                <Button className="btn-link" onClick={this.disconnect} style={{'color':'white','backgroundColor':'transparent','border':'none','font-size':'12px'}}><i className="fa fa-sign-out"></i>Déconnexion</Button>
                             </a>
                         </li>
                     </ul>
