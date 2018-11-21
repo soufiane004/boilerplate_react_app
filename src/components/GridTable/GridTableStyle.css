@@ -1,0 +1,28 @@
+.GridTableStyle{
+  margin-bottom: 12px;
+}
+
+.k-master-row:hover,.k-master-row k-alt:hover{
+  background-col:rgb(226, 226, 226) !important;
+  colo:black;
+}
+
+.TotalColumn_Charges{
+  background-color: rgb(226, 111, 111);
+  color:white;
+  font-weigh: bold !important;
+}
+
+.TotalColumn_Recette{
+  background-color: rgb(188, 216, 206);
+  color:black;
+  font-weigh: bold !important;
+
+}
+
+.TotalColumn_Net{
+  background-color: rgb(183, 220, 250);
+  color:black;
+  font-weigh: bold !important;
+
+}

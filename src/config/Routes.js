@@ -1,7 +1,8 @@
 import React from 'react';
 import Main from '../components/layouts/Main';
 import Dashboard from '../containers/Dashboard/Dashboard.js'
-import Detail from '../containers/Detail/Detail.js'
+import DetailMensuel from '../containers/Detail/DetailMensuel.js'
+import DetailAnnuel from '../containers/Detail/DetailAnnuel.js'
 import Data from '../containers/Data/Data.js'
 
 
@@ -43,7 +44,8 @@ export default (
 
         <Route path="/" component={Main} >
             <Route path="dashboard" component={Dashboard} onEnter={requireLogin}/>
-            <Route path="detail" component={Detail} onEnter={requireLogin}/>
+            <Route path="detail/detailAnnuel" component={DetailAnnuel} onEnter={requireLogin}/>
+            <Route path="detail/detailMensuel" component={DetailMensuel} onEnter={requireLogin}/>
             <Route path="data" component={Data} onEnter={requireLogin}/>
         </Route>
     </Router>
